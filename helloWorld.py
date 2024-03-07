@@ -1,1 +1,6 @@
-print(input("Enter text to be printed:\n>>> "))
+while True:
+    print("Enter your text or 'exit' to clost the program")
+    text = (input(">>> "))
+    if text == "exit":
+        break
+    print(text)
